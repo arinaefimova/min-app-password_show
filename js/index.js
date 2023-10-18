@@ -5,14 +5,14 @@ password.onfocus=function(){
 }
 password.onblur = function() {
     if (password.value === '') {
-        password.placeholder = 'password';
+        password.placeholder = 'password.';
     }
 };
 
 eyeIcon.addEventListener('click',function(){
     if(password.type == 'password'){
         password.type ='text';
-        eyeIcon.src ='/img/eye-open.png';
+        eyeIcon.src ='../img/eye-open.png';
     }
     else{
         password.type = 'password';
