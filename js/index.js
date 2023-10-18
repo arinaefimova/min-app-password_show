@@ -5,7 +5,7 @@ password.onfocus=function(){
 }
 password.onblur = function() {
     if (password.value === '') {
-        password.placeholder = 'passworwd';
+        password.placeholder = 'password';
     }
 };
 
