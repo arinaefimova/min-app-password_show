@@ -18,5 +18,5 @@ eyeIcon.addEventListener('click',function(){
         password.type = 'password';
         eyeIcon.src ='./img/eye-close.png'
     }
-})
+});
 
